@@ -1,0 +1,31 @@
+.description-modal-photos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.description-modal-photos-container img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.description-modal-description-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-modal-description-main-container h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.description-modal-description-main-container p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 2rem;
+}

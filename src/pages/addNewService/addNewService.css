@@ -1,0 +1,90 @@
+.add-service-input-main-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  /* justify-content: center; */
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.add-service-input-main-container h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+.add-service-back-ground-image img {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.description-title-add-service h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+}
+
+.add-service-option-main-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.add-new-service-option-show-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-new-service-option-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-color: #ffeff7;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.add-cart-show-description-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.add-cart-show-description-container h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+}
+
+.add-cart-show-description-container img {
+  width: 14rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+.add-cart-show-description-container p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.add-new-service-option-container h1,
+p {
+  font-family: "Poppins";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

@@ -1,0 +1,32 @@
+.layout-header {
+  padding: 2.6rem;
+  background-color: #fff;
+}
+
+.layout-header-search-container {
+  width: 45rem;
+  height: 4.8rem;
+  background: rgba(35, 115, 162, 0.12);
+  border-radius: 8px;
+}
+
+.layout-header-search-container img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1.7rem;
+}
+
+.layout-header-search-container input {
+  width: 37.8rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+  margin-left: 1.8rem;
+  background: rgba(35, 115, 162, 0.001);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a0a3bd;
+}

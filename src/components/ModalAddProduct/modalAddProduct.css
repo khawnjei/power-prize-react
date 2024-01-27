@@ -1,0 +1,50 @@
+.add-product-modal-main-container {
+  width: 80%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.3);
+  /* background: linear-gradient(135deg, #8e3d8e, #230f23); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  overflow: scroll;
+}
+
+.add-product-modal-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 4rem;
+  width: 50rem;
+  /* height: 50rem; */
+  /* align-items: center; */
+  background-color: #fff;
+  border-radius: 2.5rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.add-product-modal-input-title h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
+.add-product-modal-amount-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.add-product-modal-image img {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.modal-btn-container {
+  display: flex;
+  flex-direction: row;
+}

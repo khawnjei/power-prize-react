@@ -1,0 +1,70 @@
+.dashboard-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* background-color: red; */
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.dashboard-state-container {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+.dashboard-pie-chart-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -6px -5px 17px -1px rgba(166, 164, 164, 0.75);
+  border-radius: 13px;
+  height: 22rem;
+  padding-top: 3rem;
+}
+
+.dashboard-pie-chart-container p {
+  margin-top: 1rem;
+  /* width: 25rem; */
+}
+.dashboard-state-count-container {
+  width: 48%;
+  height: 10rem;
+  background: rgb(247, 246, 246);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem;
+  box-shadow: -6px -5px 17px -1px rgba(166, 164, 164, 0.75);
+  margin-bottom: 2rem;
+}
+
+.dashboard-state-icon img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.dashboard-state {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-state h2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4b66;
+}
+.dashboard-state p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--theme-color);
+}

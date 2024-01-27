@@ -1,0 +1,21 @@
+.side-bar-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon {
+  filter: invert(100%);
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon1 {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon2 {
+  filter: invert(100%);
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-family: "Comfortaa", cursive;
+  --font-family-main: "poppins";
+  --theme-color: #16375a;
+  --primary-color: #0b1b2d;
+  --secondary-color: #0f273f;
+  --text-color: #374151;
+  --blue-color: #34adf4;
+  --grey-color: #dcedff;
+  --white: #fff;
+}
+
+.Toastify__toast-container {
+  font-size: 16px; /* Adjust the font size as per your requirement */
+}
+
+/* Override the toast icon size */
+.Toastify__toast-icon {
+  font-size: 22px; /* Adjust the icon size as per your requirement */
+}
+.ant-table-filter-trigger span {
+  color: rgb(253, 253, 253);
+}
+.ant-table-column-sorter-up.active svg,
+.ant-table-column-sorter-down.active svg {
+  fill: rgb(3, 13, 91); /* Replace 'red' with your desired color */
+}
+.ant-table-column-sorter-up svg,
+.ant-table-column-sorter-down svg {
+  fill: rgb(255, 255, 255); /* Replace 'red' with your desired color */
+}
+/* .anticon {
+  color: #fff !important;
+} */
+
+/* .ant-modal-content {
+  width: 20rem;
+  margin-left: 20rem;
+} */

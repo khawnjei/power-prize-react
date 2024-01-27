@@ -1,0 +1,15 @@
+.product-description-detail h2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.product-description-detail h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 2rem;
+}

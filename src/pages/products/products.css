@@ -1,0 +1,119 @@
+.admin-products-main-container {
+  background-color: #fff;
+  padding: 0 2.4rem;
+}
+
+.configure-server-home-icon img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 4px;
+}
+
+.bread-crumb {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.configure-server-roles-main-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+.configure-server-roles-main-heading-container h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  color: #06141c;
+}
+.server-roles-add-btn {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--theme-color);
+  cursor: pointer;
+}
+
+.server-roles-add-btn img {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+}
+.server-roles-add-btn p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.server-roles-tb-main-container {
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0px 0px 8px 1px rgba(9, 161, 218, 0.1);
+  margin-top: 1.5rem;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: rgb(12, 53, 92);
+  color: white;
+}
+
+.server-roles-trash-btn img {
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+
+.action-column-header {
+  padding-right: 6rem !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4e4b66;
+}
+
+.role-name-column-header {
+  padding-left: 4rem !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4e4b66;
+}
+
+.type-name-column-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.server-role-odd-row {
+  background: #d9e7ef;
+}
+
+.server-role-even-row {
+  background-color: #fff;
+}
+
+.ant-table {
+  border: none !important;
+}
+
+.product-list-image img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.product-list-edit-icon img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
